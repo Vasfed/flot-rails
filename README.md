@@ -18,7 +18,7 @@ In your Gemfile, add this line:
 ```javascript
 
   //= require jquery.flot
-  //= require jquery.resize
+  //= require jquery.flot.resize
 
 ```
 
