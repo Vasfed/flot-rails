@@ -22,7 +22,7 @@ In your Gemfile, add this line:
 
 ```
 
-etc.
+be sure to restart your web server to pick up the gem assets
 
 ### Rails helpers
 
