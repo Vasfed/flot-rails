@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Vasily Fedoseyev"]
   s.email       = ["vasilyfedoseyev@gmail.com"]
-  s.homepage    = "http://rubygems.org/gems/flot-rails"
+  s.homepage    = "https://github.com/Vasfed/flot-rails"
   s.summary     = "jQuery Flot for Rails Asset pipeline"
   s.description = "Provides easy installation and usage of jQuery-flot javascript library for your Rails 3.1+ application."
 
