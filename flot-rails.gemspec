@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = ">= 1.3.6"
 
   s.add_dependency "jquery-rails"
-  s.add_development_dependency "rails",   "~> 3.1"
+  s.add_development_dependency "rails",   ">= 3.1"
 
   s.files        = `git ls-files`.split("\n")
   s.executables  = `git ls-files`.split("\n").select{|f| f =~ /^bin/}
