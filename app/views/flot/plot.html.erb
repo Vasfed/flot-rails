@@ -1,0 +1,7 @@
+<%= content_tag :div, html_options do %>
+  <script type="text/javascript">
+    $(function() { 
+      $.plot($("#<%= html_options[:id] %>"), $("#<%= html_options[:id] %>").data("series"), <%= raw flot_options.to_json %>);
+    });
+  </script>
+<% end %>
